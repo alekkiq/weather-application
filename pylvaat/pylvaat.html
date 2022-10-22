@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <link rel="stylesheet" href="/tyylit/style.css">
+    <meta charset="UTF-8">
+    <title>Lopputehtava</title>
+    <script src="/js/diagrammi.js"></script>
+</head>
+
+<body>
+    <div class="otsik">
+        <h1>Tervetuloa!</h1>
+        <p>Valitse ensin haettava taulukko ja kuukausi</p>
+    </div>
+    <div id="valikot" class="koko">
+        <select id="valittu">
+            <option value="">(Valitse)</option>
+            <option value="sade">Sademäärä</option>
+            <option value="lampo">Lämpötila</option>
+            <option value="pilvisyys">Pilvisyys</option>
+        </select>
+
+        <select id="myselect">
+            <option value="">Valitse Kuukausi</option>
+            <option value="1">Tammikuu</option>
+            <option value="2">Helmikuu</option>
+            <option value="3">Maaliskuu</option>
+            <option value="4">Huhtikuu</option>
+            <option value="5">Toukokuu</option>
+            <option value="6">Kesäkuu</option>
+            <option value="7">Heinäkuu</option>
+            <option value="8">Elokuu</option>
+            <option value="9">Syyskuu</option>
+            <option value="10">Lokakuu</option>
+            <option value="11">Marraskuu</option>
+            <option value="12">Joulukuu</option>
+        </select>
+    </div>
+
+    <canvas id="piirtoalue" width="1600" height="400"></canvas>
+    <p id="suora">&nbsp;</p>
+
+    <div id="tiedot">
+        <p id="min"></p>
+        <p id="max"></p>
+        <p id="keskiarvo"></p>
+        <p id="mediaani"></p>
+    </div>
+</body>
+
+</html>
