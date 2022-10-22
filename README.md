@@ -9,7 +9,7 @@ What was this project about?
 What I learned
 - Working as an active group member; communication, sharing the work between all three group members
 - Drawing to a canvas using retrieved json data
-- REST and SPA mechanics
+- REST and SPA mechanics and using fetch to retrieve data
 
 Flaws
 - Poor parameterization
