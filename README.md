@@ -1,5 +1,5 @@
 # weather-application
-Application that transforms pre-given json data to a chart, theme being monthly weathers. School project which was done in groups.
+Application that transforms pre-given json data to a chart, theme being monthly weathers. School project which was done in randomized groups.
 
 What was this project about?
 - Working as a group
