@@ -1,0 +1,73 @@
+
+html{
+    top: 0;
+    overflow:scroll;
+}
+
+body{
+    background-color: rgba(25, 134, 148, 0.24);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+button{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 200px;
+    color: green;
+    width: 100px;
+}
+h1 {
+    color: rgb(231, 10, 10);
+    margin-top: 100px;
+    text-align: center;
+}
+.koko{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+    size: 100%;
+}
+.otsik{
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    color: rgb(2, 0, 0);
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#tiedot {
+    margin: auto;
+    display:block;
+    width: 22rem;
+    height: 150px;
+    text-align: left;
+    font-size: 30px;
+}
+select {
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-radius: 15px 15px;
+}
+#valikot {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#suora {
+    border-top: 1px solid black;
+    width: 100rem;
+    margin:-12.5rem auto 12.5rem auto;
+}
